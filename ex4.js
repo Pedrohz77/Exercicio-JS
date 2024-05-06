@@ -5,7 +5,7 @@
 // a 7,0 RECUPERAÇÃO para notas entre 5.0 e 7,0 ou a
 // mensagem de REPROVADO para média inferior a 5,0.
 
-
+alert("Informe ás notas de 0 á 10")
 let nota1 = parseFloat (prompt("Digite sua prmeira nota"))
 let nota2= parseFloat (prompt("Digite sua segunda nota"))
 let nota3= parseFloat (prompt("Digite sua terceira nota"))
