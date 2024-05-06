@@ -3,9 +3,9 @@
 // e verifica se eles estão em ordem crescente. Exibindo uma
 // mensagem indicando se os números estão em ordem crescente ou não.
 
-let n1 =prompt ("Digite o primeiro número")
-let n2 =prompt ("Digite o segundo número")
-let n3 =prompt ("Digite o terceiro número")
+let n1 = parseInt(prompt ("Digite o primeiro número") )
+let n2 = parseInt(prompt ("Digite o segundo número") )
+let n3 = parseInt(prompt ("Digite o terceiro número") )
 
 if(n1 < n2 && n2 < n3) {
     console.log ("Ordem crescente")
