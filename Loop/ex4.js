@@ -4,5 +4,5 @@
 let num = parseInt (prompt ("Digite um número para ver na tabuada: "));
 
 for (let tabuada = 1; tabuada <=10; tabuada++){
-    console.log (tabuada*num)
+    console.log (tabuada * num)
 }
