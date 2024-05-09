@@ -3,10 +3,10 @@
 // idade e mostre uma mensagem quando a idade do usuário for
 // maior que 18.
 
-let idade = 1
+let idade = parseInt (prompt ("Digite sua idade: "))
 
 while (idade < 18) {
-    idade= parseInt (prompt ("Digite sua idade: "))
+    idade= parseInt (prompt ("Você é menor de idade, digite novamente: "))
 }
 
 console.log ("Você é maior de idade")
