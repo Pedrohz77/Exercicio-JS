@@ -4,8 +4,8 @@
 // O usuário poderá escolher qual exercicio ele quer visualizar.
 
 // O usuário deverá digitar 0 para sair do menu.
-
-let opcao = prompt("Escolha uma opção: \n  Escolha um exercício: \n1 - Exercício 1 \n2 - Exercício 2  \n3 - Exercício 3 \n4 - Exercício 4 \n5 - Exercício 5 \n6 - Exercício 6 \n0 - Sair do menu ");
+do {
+opcao = prompt("MENU\n\n Escolha uma opção: \n Escolha um exercício: \n1 - Exercício 1 \n2 - Exercício 2  \n3 - Exercício 3 \n4 - Exercício 4 \n5 - Exercício 5 \n6 - Exercício 6 \n0 - Sair do menu ");
 
 switch (opcao) {
 
@@ -39,6 +39,8 @@ switch (opcao) {
     default: 
     break;
 }
+
+} while (opcao != "0")
 
 function exercicio1() {
 
